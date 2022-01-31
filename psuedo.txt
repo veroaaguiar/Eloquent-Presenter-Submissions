@@ -1,7 +1,0 @@
-open(ramen)
-
-while(Clock.now - start < Clock.minutes(2))
-	cook()
-end
-
-eat(ramen)
