@@ -1,0 +1,62 @@
+//Arepa Recipe
+
+//Variables - Ingredients 
+var h20
+var harina_pan (Corn Flour)
+var pan
+var tosti_arepa
+var ham
+var cheese
+var queso_de_mano
+var platano
+var reina_pepiada
+var sweet_potato
+var butter
+var cooking_time
+boolean Vegan?
+boolean Vegetarian?
+boolean Paleo?
+
+
+//main function: making the actual arepas
+def arepa():
+for arepa in all_arepas_made:
+    arepa_mix = h20 + harina_pan (consistensy should be a bit soft, but not liquid!)
+    if Vegan !== && Vegetarian !== && Paleo !===:
+        arepa_mix = arepa_mix + cheese
+        
+    roll(arepa_mix) --> balls
+    flatten(balls) 
+    arepa = arepa_mix + pan || tosti_arepa
+    cooked_arepa = arepa + flips + cooking_time
+    
+    if Vegan == true:
+        completed_arepa = cooked_arepa + platano;
+        
+    if Vegetarian == true:
+        completed_arepa = cooked_arepa + queso_de_mano;
+    
+    if Vegan !== && Vegetarian !== && Paleo !===:
+       reina_pepiada_mix;
+        
+    if Paleo == true:
+        sweet_potato_arepa;
+        
+        
+def reina_pepiada_mix():
+    rp_mix = combine(chicken + avocado + mayonnaise)
+    completed_arepa = cooked_arepa + rp_mix;
+
+def sweet_potato_mix():
+    chopped_sp = sweet_potato / 10 
+    boil(chopped_sp) --> drain(chopped_sp)
+    sp_mix = smash(chopped_sp)
+    roll(sp_mix) --> balls
+    flatten(balls) 
+    arepa = sp_mix + pan || tosti_arepa
+    cooked_arepa = arepa + flips + cooking_time;
+    
+    
+    Enjoy! 
+    
+    
