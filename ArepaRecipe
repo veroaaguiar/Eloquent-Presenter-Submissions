@@ -1,0 +1,75 @@
+##How to make Arepas! By Veronica##
+
+
+#Variables
+Ingredient Water #(to measure)
+Ingr Corn flour #(1-2 c)
+Ingr cheese #(to taste)
+Ingr Salt #(only a pinch!)
+Ingr Oil
+Ingr Chicken 
+Ingr Mayonnaise
+Ingr Avocado
+
+Tool pan 
+Tool bowl
+Tool tostiarepa
+Tool spatula
+
+Conditions:
+Boolean isVegan
+Boolean hasTostiArepa
+
+
+Arepas MakeArepas(water, corn flour, salt) {
+
+Step 1: Combine water + corn flour + salt
+Begin:
+   1c corn flour, slowly add in water 
+   make sure consistency is correct 
+   mix = corn flour + water + salt
+
+   if isVegan !==:
+   cheeseArepa = mix + cheese
+End//
+
+Step 2: Roll mix into balls 
+Begin:
+   balls = circular motion + mix
+
+   if manyPeople(such as this class):
+    balls == 1/2 palm 
+
+   if familyBreakfast:
+     balls == 3/4 palm 
+
+   if veryHungry:
+     balls = full palm 
+
+End//
+
+Step 3: cook Arepas
+Begin:
+  If tostiArepa !==:
+    pan + oil (usually use Olive Oil)
+    cookedArepa = pan + oil + balls + time + 4 flips
+    Pro tip: In order to get signature "marks" on arepas, flatten with bottom of spatula
+    remove from pan and open! 
+
+  If tostiArepa ==:
+    cookedArepa = mix + tostiArepa + time 
+End//
+}
+
+
+
+Filling MakeReinaPepiada(chicken, mayonnaise, avocado) {
+	Step 1: Shred chicken 
+	Pro tip: buy pre-shredded chicken to save time!
+
+	Step 2: Create "guac"
+	pit avocado, smash, add salt and olive oil
+
+	Step 3: Combine
+	reinaPepiada = chicken + guac + mayonnaise
+}
